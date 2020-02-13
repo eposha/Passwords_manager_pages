@@ -1,0 +1,59 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    width: 450px;
+    height: 450px;
+
+    .title {
+        font-size: 24px;
+        color: rgb(167, 167, 167);
+    }
+
+    .subtitle {
+        margin-top: 35px;
+        font-size: 18px;
+        font-weight: 700;
+        color: rgb(145, 145, 145);
+
+        .piece {
+            display: flex;
+            margin-top: 5px;
+            justify-content: center;
+        }
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+
+        input {
+            padding: 15px;
+            width: 350px;
+            border: none;
+            border-bottom: 1px solid lightgrey;
+        }
+
+        input:first-child {
+            margin-top: 25px;
+        }
+    }
+
+    .btn {
+        margin-top: 25px;
+        height: 30px;
+        font-size: 15px;
+        border: none;
+        background-color: rgb(21, 119, 211);
+    }
+
+    .btn-login {
+        margin-top: 55px;
+    }
+
+    .btn-register {
+        width: 350px;
+    }
+}
