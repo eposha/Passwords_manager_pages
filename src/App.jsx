@@ -18,7 +18,7 @@ class App extends React.Component {
   render() {
     const { users } = this.state;
     return (
-      <BrowserRouter basename="/GBSFO_pages/pages/">
+      <BrowserRouter basename="/Passwords_manager_pages/pages/">
         <Switch>
           <Route
             exact
